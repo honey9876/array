@@ -1,7 +1,6 @@
-import java.util.*;
 
 public class leaner {
-    public static int leaner(int number[], int key){
+    public static int leaners(int number[], int key){
         for(int i=0; i<number.length; i++) {
             if(number[i] == key) {
                 return i;
@@ -15,7 +14,7 @@ public class leaner {
         int key = 14;
 
 
-        int index = leaner(number, key);
+        int index = leaners(number, key);
         if (index == -1) {
             System.out.println("not found");
         }
