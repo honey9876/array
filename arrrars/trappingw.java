@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class trapping {
+public class trappingw {
     public static int trappedRainwater(int height[]) {
         int n = height.length;
         int leftmax[] = new int[n];

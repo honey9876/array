@@ -1,4 +1,4 @@
-public class maxsub {
+public class m {
     public static void maxmimum(int numbers[]) {
        int currSum = 0;
        int maxSum = Integer.MIN_VALUE;

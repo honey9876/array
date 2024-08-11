@@ -1,4 +1,4 @@
-public class reverse {
+public class reversew {
     public static void reverse(int number[]){
        int first = 0, last = number.length-1;
 
